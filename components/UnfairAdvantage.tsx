@@ -2,7 +2,7 @@ const principles = [
   {
     number: "01",
     heading: "Bias to ship",
-    body: "A rough thing live on Friday beats a perfect deck on Monday. I'd rather learn from the market than argue in a meeting.",
+    body: "I move fast without cutting corners. Speed comes from clarity and preparation — not from skipping quality. I ship things that work and that I'm proud of.",
   },
   {
     number: "02",
