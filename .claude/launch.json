@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "melissa",
+      "name": "toni-grunwald",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 3003
