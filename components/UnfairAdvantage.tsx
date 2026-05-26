@@ -25,7 +25,7 @@ const stats = [
 
 export default function UnfairAdvantage() {
   return (
-    <section id="about" className="mt-section-gap md:mt-[160px] px-margin-mobile md:px-margin-desktop max-w-[1920px] mx-auto">
+    <section id="track-record" className="mt-section-gap md:mt-[160px] px-margin-mobile md:px-margin-desktop max-w-[1920px] mx-auto">
       <div className="structural-divider">
         <div className="section-label font-section-number text-section-number uppercase tracking-widest">
           03 How I Operate

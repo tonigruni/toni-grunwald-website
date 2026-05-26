@@ -11,7 +11,7 @@ export default function Hero() {
       showHeader={false}
       mainText="Founder-grade product & strategy operator. I've started companies, run a fund, and built the marketing, the brand and the code when there was no one to hand it to."
       readMoreLink="#pitch"
-      imageSrc="/toni-portrait.png"
+      imageSrc="/toni hero profile.png"
       imageAlt="Toni Grunwald – Product Strategist & Startup Operator"
       overlayText={{
         part1: "0→1",
