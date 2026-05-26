@@ -4,6 +4,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section[id] {
+  scroll-margin-top: 96px;
+}
+
 @font-face {
   font-family: "ThePlanet";
   src: url("/THE PLANET.otf") format("opentype");
