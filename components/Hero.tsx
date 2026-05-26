@@ -9,17 +9,16 @@ export default function Hero() {
   return (
     <MinimalistHero
       showHeader={false}
-      mainText="Project Manager & Construction Coordinator with 7+ years delivering complex builds on time and on budget. Architectural background, PM mindset — always."
-      readMoreLink="#about"
-      // Replace with Melissa's actual portrait photo
-      imageSrc="/meli%20sideview.png"
-      imageAlt="Melissa Morales – Senior Project Manager"
+      mainText="Founder-grade product & strategy operator. I've started companies, run a fund, and built the marketing, the brand and the code when there was no one to hand it to."
+      readMoreLink="#pitch"
+      imageSrc="/toni-portrait.png"
+      imageAlt="Toni Grunwald – Product Strategist & Startup Operator"
       overlayText={{
-        part1: "project",
-        part2: "manager.",
+        part1: "0→1",
+        part2: "operator.",
       }}
       socialLinks={socialLinks}
-      locationText="Medellín, Colombia"
+      locationText="Product · Strategy · 0→1"
     />
   );
 }

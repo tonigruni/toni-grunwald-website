@@ -1,56 +1,64 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "ThePlanet";
+  src: url("/THE PLANET.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
-  /* Brand colors */
-  --color-primary: #b7102a;
-  --color-primary-container: #db313f;
-  --color-primary-fixed: #ffdad8;
-  --color-primary-fixed-dim: #ffb3b1;
+  /* Brand colors — green accent */
+  --color-primary: #418b6d;
+  --color-primary-container: #5aab89;
+  --color-primary-fixed: #eaf4f0;
+  --color-primary-fixed-dim: #c8e6dc;
   --color-on-primary: #ffffff;
-  --color-on-primary-fixed: #410007;
-  --color-on-primary-fixed-variant: #92001c;
-  --color-on-primary-container: #fffbff;
-  --color-inverse-primary: #ffb3b1;
+  --color-on-primary-fixed: #0d2a1f;
+  --color-on-primary-fixed-variant: #2a6650;
+  --color-on-primary-container: #ffffff;
+  --color-inverse-primary: #7fcaad;
 
   /* Secondary */
-  --color-secondary: #5f5e5e;
-  --color-secondary-fixed: #e5e2e1;
-  --color-secondary-fixed-dim: #c8c6c5;
-  --color-secondary-container: #e5e2e1;
+  --color-secondary: #2a6650;
+  --color-secondary-fixed: #eaf4f0;
+  --color-secondary-fixed-dim: #c8e6dc;
+  --color-secondary-container: #eaf4f0;
   --color-on-secondary: #ffffff;
-  --color-on-secondary-fixed: #1c1b1b;
-  --color-on-secondary-fixed-variant: #474646;
-  --color-on-secondary-container: #656464;
+  --color-on-secondary-fixed: #0d2a1f;
+  --color-on-secondary-fixed-variant: #2a6650;
+  --color-on-secondary-container: #2a6650;
 
   /* Tertiary */
-  --color-tertiary: #5a5c5c;
-  --color-tertiary-fixed: #e2e2e2;
-  --color-tertiary-fixed-dim: #c6c6c7;
-  --color-tertiary-container: #737575;
+  --color-tertiary: #2a6650;
+  --color-tertiary-fixed: #c8e6dc;
+  --color-tertiary-fixed-dim: #a8d4c4;
+  --color-tertiary-container: #2a6650;
   --color-on-tertiary: #ffffff;
-  --color-on-tertiary-fixed: #1a1c1c;
-  --color-on-tertiary-fixed-variant: #454747;
-  --color-on-tertiary-container: #fcfcfc;
+  --color-on-tertiary-fixed: #0d2a1f;
+  --color-on-tertiary-fixed-variant: #2a6650;
+  --color-on-tertiary-container: #f4f9f6;
 
   /* Surface */
-  --color-surface: #fff8f7;
-  --color-surface-bright: #fff8f7;
-  --color-surface-dim: #f1d3d2;
-  --color-surface-variant: #f9dcda;
+  --color-surface: #ffffff;
+  --color-surface-bright: #ffffff;
+  --color-surface-dim: #c8e6dc;
+  --color-surface-variant: #eaf4f0;
   --color-surface-container-lowest: #ffffff;
-  --color-surface-container-low: #fff0ef;
-  --color-surface-container: #ffe9e8;
-  --color-surface-container-high: #ffe1e0;
-  --color-surface-container-highest: #f9dcda;
-  --color-surface-tint: #bb152c;
-  --color-on-surface: #271717;
-  --color-on-surface-variant: #5b403f;
-  --color-inverse-surface: #3e2c2b;
-  --color-inverse-on-surface: #ffedeb;
+  --color-surface-container-low: #f4f9f6;
+  --color-surface-container: #eaf4f0;
+  --color-surface-container-high: #c8e6dc;
+  --color-surface-container-highest: #a8d4c4;
+  --color-surface-tint: #418b6d;
+  --color-on-surface: #0d2a1f;
+  --color-on-surface-variant: #2a6650;
+  --color-inverse-surface: #0d2a1f;
+  --color-inverse-on-surface: #eaf4f0;
 
   /* Outline */
-  --color-outline: #8f6f6e;
-  --color-outline-variant: #e4bebc;
+  --color-outline: #2a6650;
+  --color-outline-variant: #a8d4c4;
 
   /* Error */
   --color-error: #ba1a1a;
@@ -59,8 +67,8 @@
   --color-on-error-container: #93000a;
 
   /* Background */
-  --color-background: #fff8f7;
-  --color-on-background: #271717;
+  --color-background: #ffffff;
+  --color-on-background: #0d2a1f;
 
   /* Misc */
   --color-structural-line: #000000;

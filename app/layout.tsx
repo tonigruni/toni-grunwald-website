@@ -14,20 +14,20 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Melissa Morales | Project Manager & Construction Coordinator",
+  title: "Toni Grunwald | Product Strategist & Startup Operator",
   description:
-    "Project Manager & Construction Coordinator with 7+ years delivering complex builds on time and on budget. Architectural background, PM mindset — always.",
+    "German-born product strategist, startup operator, and AI-focused builder helping companies move from scattered ideas to real execution.",
   openGraph: {
-    title: "Melissa Morales | Project Manager & Construction Coordinator",
+    title: "Toni Grunwald | Product Strategist & Startup Operator",
     description:
-      "Project Manager & Construction Coordinator with 7+ years delivering complex builds on time and on budget. Architectural background, PM mindset — always.",
+      "I build, launch, and improve digital products by combining strategy, operations, AI, marketing, and execution.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Melissa Morales | Project Manager & Construction Coordinator",
+    title: "Toni Grunwald | Product Strategist & Startup Operator",
     description:
-      "Project Manager & Construction Coordinator with 7+ years delivering complex builds on time and on budget. Architectural background, PM mindset — always.",
+      "German-born product strategist, startup operator, and AI-focused builder helping companies move from scattered ideas to real execution.",
   },
 };
 

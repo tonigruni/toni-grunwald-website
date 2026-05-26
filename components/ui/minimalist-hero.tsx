@@ -141,7 +141,7 @@ export const MinimalistHero = ({
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = `https://placehold.co/400x600/b7102a/ffffff?text=Melissa+Morales`;
+              target.src = `https://placehold.co/400x600/506ba5/ffffff?text=Toni+Grunwald`;
             }}
           />
         </div>
