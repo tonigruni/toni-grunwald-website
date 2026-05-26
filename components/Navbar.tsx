@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop py-6 max-w-[1920px] mx-auto transition-all duration-300">
       <Link
         href="/"
-        className="flex items-center gap-2 text-on-surface hover:text-primary transition-colors shrink-0"
+        className="flex items-center gap-5 text-on-surface hover:text-primary transition-colors shrink-0"
       >
         <Image src="/TG favicon.png" alt="" width={44} height={44} className="rounded-sm shrink-0" />
         <span style={{ fontFamily: '"ThePlanet", sans-serif', fontSize: '2.5rem', letterSpacing: '0.02em', marginTop: '6px' }}>
