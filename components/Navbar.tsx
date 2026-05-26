@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const navLinks = [
   { label: "Pitch",        href: "#pitch" },
-  { label: "Work",         href: "#projects" },
   { label: "Track Record", href: "#track-record" },
+  { label: "Recent Work",  href: "#projects" },
   { label: "Contact",      href: "mailto:toni.grunwald@gmail.com" },
 ];
 
