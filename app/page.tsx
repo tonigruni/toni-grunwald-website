@@ -19,9 +19,9 @@ export default function Home() {
       <Hero />
       <ToolsMarquee />
       <ThePitch />
-      <TechStack />
       <WhatIDo />
       <UnfairAdvantage />
+      <TechStack />
       <Projects />
       <Skills />
       <ImpactStatement />
