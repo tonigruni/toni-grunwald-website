@@ -33,7 +33,7 @@ export default function Navbar() {
           </a>
         ))}
         <CalBookingButton
-          calLink="toni-grunwald-6stkiu/30min"
+          calLink="toni-grunwald/30min"
           className="font-label-bold text-label-bold uppercase tracking-widest text-[11px] border border-primary text-primary px-4 py-2 hover:bg-primary hover:text-surface transition-colors cursor-pointer"
         >
           Book a call
