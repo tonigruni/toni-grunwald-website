@@ -3,7 +3,7 @@ export function ThePitch() {
     <section id="pitch" className="px-margin-mobile md:px-margin-desktop bg-surface-container-low pt-24 pb-section-gap max-w-[1920px] mx-auto">
       <div className="structural-divider mb-12">
         <div className="section-label font-section-number text-section-number uppercase tracking-widest">
-          01 The Pitch
+          01 Why Me
         </div>
       </div>
       <div className="grid grid-cols-12 gap-gutter">
