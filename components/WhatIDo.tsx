@@ -10,7 +10,7 @@ export function ThePitch() {
         <div className="col-span-12 md:col-span-10 lg:col-span-8">
           <p className="font-headline-md text-headline-md leading-snug text-on-surface">
             Most people are great at <em>one</em>{" "}thing and need a team for the rest.
-            I&apos;m <strong className="text-primary">dangerous</strong>{" "}because I&apos;m genuinely good at the whole stack — strategy, product, brand, GTM, even the build.
+            I&apos;m <strong className="text-primary">effective</strong>{" "}because I&apos;m genuinely good at the whole stack — strategy, product, brand, GTM, even the build.
             Which means I move fast, I don&apos;t get blocked waiting on hand-offs, and I lead teams that{" "}
             <strong className="text-primary">can&apos;t bluff me.</strong>
           </p>
