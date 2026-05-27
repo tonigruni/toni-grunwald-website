@@ -23,7 +23,7 @@ export default function FooterSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 md:justify-end">
             <CalBookingButton
-              calLink="toni-grunwald/30min"
+              calLink="toni-grunwald-6stkiu/30min"
               className="inline-block border-2 border-on-surface text-on-surface px-10 py-4 font-label-bold text-label-bold uppercase hover:border-primary hover:text-primary transition-colors cursor-pointer"
             />
             <a
