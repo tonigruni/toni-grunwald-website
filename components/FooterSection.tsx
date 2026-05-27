@@ -1,3 +1,5 @@
+import CalBookingButton from "@/components/CalBookingButton";
+
 export default function FooterSection() {
   return (
     <section className="mt-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-highest/30 border-t-2 border-structural-line pt-24 pb-12">
@@ -19,12 +21,18 @@ export default function FooterSection() {
           <p className="font-body-lg text-body-lg max-w-sm ml-auto">
             I&apos;m looking for my next 0→1 challenge — a team that wants to move fast and ship real things. If that&apos;s you, let&apos;s talk.
           </p>
-          <a
-            href="mailto:toni.grunwald@gmail.com?subject=Let's%20talk"
-            className="inline-block bg-on-surface text-surface px-10 py-4 font-label-bold text-label-bold uppercase hover:bg-primary transition-colors"
-          >
-            Let&apos;s talk ↗
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 md:justify-end">
+            <CalBookingButton
+              calLink="toni-grunwald/30min"
+              className="inline-block border-2 border-on-surface text-on-surface px-10 py-4 font-label-bold text-label-bold uppercase hover:border-primary hover:text-primary transition-colors cursor-pointer"
+            />
+            <a
+              href="mailto:toni.grunwald@gmail.com?subject=Let's%20talk"
+              className="inline-block bg-on-surface text-surface px-10 py-4 font-label-bold text-label-bold uppercase hover:bg-primary transition-colors"
+            >
+              Let&apos;s talk ↗
+            </a>
+          </div>
         </div>
       </div>
       <footer className="flex flex-col md:flex-row justify-between items-end border-t border-structural-line/20 pt-12 gap-gutter">

@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import CalBookingButton from "@/components/CalBookingButton";
 
 const navLinks = [
   { label: "Why Me",       href: "#pitch" },
   { label: "Track Record", href: "#track-record" },
   { label: "Recent Work",  href: "#projects" },
-  { label: "Contact",      href: "mailto:toni.grunwald@gmail.com" },
 ];
 
 export default function Navbar() {
@@ -32,6 +32,12 @@ export default function Navbar() {
             {l.label}
           </a>
         ))}
+        <CalBookingButton
+          calLink="toni-grunwald/30min"
+          className="font-label-bold text-label-bold uppercase tracking-widest text-[11px] border border-primary text-primary px-4 py-2 hover:bg-primary hover:text-surface transition-colors cursor-pointer"
+        >
+          Book a call
+        </CalBookingButton>
       </div>
       <div className="flex md:hidden items-center gap-4">
         <a href="https://www.linkedin.com/in/toni-grunwald/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="inline-flex items-center text-primary hover:opacity-80 transition-opacity">
